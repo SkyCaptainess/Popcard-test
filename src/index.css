@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply w-full mx-auto max-w-[900px];
+  }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:regular,bold,italic&subset=latin,latin-ext");
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  color: #000000;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
